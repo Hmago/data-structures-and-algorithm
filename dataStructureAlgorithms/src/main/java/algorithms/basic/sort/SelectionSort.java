@@ -2,6 +2,10 @@ package algorithms.basic.sort;
 
 import utils.ArrayUtils;
 
+/*
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(1)
+ */
 public class SelectionSort {
 
     public int[] sort(int arr[]){
