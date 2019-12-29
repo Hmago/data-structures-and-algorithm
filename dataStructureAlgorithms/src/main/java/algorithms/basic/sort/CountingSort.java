@@ -16,36 +16,36 @@ public class CountingSort {
      *
      * Limitation: Java supports positive indexes in array, so only positive numbers are supported
      */
-    public int[] sort(int arr[]){
+    public int[] sort(int arr[]) {
         int size = arr.length;
         int max_element = Integer.MIN_VALUE;
-        for(int element: arr){
-            if(element>max_element){
-                max_element=element;
+        for (int element : arr) {
+            if (element > max_element) {
+                max_element = element;
             }
 
             /* Check for -ve numbers*/
-            if(element<0){
+            if (element < 0) {
                 return null;
             }
         }
 
         int output[] = new int[size];
-        int temp[] = new int[max_element+1];
-        for (int element: arr){
+        int temp[] = new int[max_element + 1];
+        for (int element : arr) {
             temp[element]++;
         }
 
-        for(int i=1;i<=max_element;i++){
-            temp[i] = temp[i]+temp[i-1];
+        for (int i = 1; i <= max_element; i++) {
+            temp[i] = temp[i] + temp[i - 1];
         }
 
-        System.out.println("Temp="+Arrays.toString(temp));
-        for(int element: arr){
-            output[temp[element]-1] = element;
+        System.out.println("Temp=" + Arrays.toString(temp));
+        for (int element : arr) {
+            output[temp[element] - 1] = element;
             temp[element]--;
         }
-        System.out.println("Output="+Arrays.toString(output));
+        System.out.println("Output=" + Arrays.toString(output));
         return output;
     }
 }
