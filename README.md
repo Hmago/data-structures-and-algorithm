@@ -1,6 +1,6 @@
 # Data Structure and Algorithm
 
-The goal behing making this repository to lean basic of DSA and practise commonly asked problems.
+The goal behing making this repository is to lean basic of DSA and practise commonly asked problems in interviews.
 
 The topic I will be covering in this are:
 
