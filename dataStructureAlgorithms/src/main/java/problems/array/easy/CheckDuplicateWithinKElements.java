@@ -26,6 +26,7 @@ public class CheckDuplicateWithinKElements {
                     return true;
                 }
 
+                
                 hmap.remove(arr[i - k]);
             }
             hmap.put(arr[i], arr[i]);
