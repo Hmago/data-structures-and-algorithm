@@ -15,12 +15,14 @@ import utils.ArrayUtils;
  */
 public class ReorderArrayAccordingToIndexes {
 
-    public void rearrange(int arr[], int indexes[]) {
+    public int[] rearrange(int arr[], int indexes[]) {
         for (int i = 0; i < indexes.length; i++) {
             while (i != indexes[i]) {
                 ArrayUtils.swap(arr, i, indexes[i]);
                 ArrayUtils.swap(indexes, i, indexes[i]);
             }
         }
+
+        return arr;
     }
 }
