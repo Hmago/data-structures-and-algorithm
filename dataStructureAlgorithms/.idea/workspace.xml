@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2c2be91-380e-413f-b4b0-b5b5c4c975f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/array/medium/FindDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/array/medium/FindDuplicateNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/problems/array/medium/FindDuplicateNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/problems/array/medium/FindDuplicateNumber.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +31,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/problems" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.ContainerWithMostWaterTest">
+  <component name="RunManager" selected="JUnit.RemoveDuplicateFromLinkedListTest">
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.array.medium.ContainerWithMostWater" />
       <module name="dataStructureAlgorithms" />
@@ -64,16 +63,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicateNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveDuplicateFromLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.array.medium.*" />
+          <option name="PATTERN" value="problems.linkedList.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problems.array.medium" />
-      <option name="MAIN_CLASS_NAME" value="problems.array.medium.FindDuplicateNumberTest" />
+      <option name="PACKAGE_NAME" value="problems.linkedList.easy" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.RemoveDuplicateFromLinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveDuplicateFromLinkedListTest" />
         <item itemvalue="JUnit.ContainerWithMostWaterTest" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="JUnit.RepeatingAndMissingNumberTest" />
         <item itemvalue="JUnit.SubarrayWithGivenSumTest" />
-        <item itemvalue="JUnit.FindDuplicateNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,38 +157,76 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1578504177828">
-      <screen x="0" y="23" width="1680" height="941" />
+    <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579329704496">
+      <screen x="0" y="23" width="1680" height="939" />
     </state>
+    <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1680.939@0.23.1680.939" timestamp="1579329704496" />
     <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1680.941@0.23.1680.941" timestamp="1578504177828" />
     <state x="653" y="205" key="#com.intellij.ide.util.MemberChooser/0.23.1680.944@0.23.1680.944" timestamp="1578470728374" />
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1578589461958">
-      <screen x="0" y="23" width="1680" height="941" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1579330700052">
+      <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1578242110786" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579330700052" />
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1578589461958" />
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1578510917208" />
-    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1578589461957">
-      <screen x="0" y="23" width="1680" height="941" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1579330700051">
+      <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1578242110785" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1579330700051" />
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1578589461957" />
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
-    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1578589461956">
-      <screen x="0" y="23" width="1680" height="941" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1579330700050">
+      <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1578242110785" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1579330700050" />
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1578589461956" />
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1578510917206" />
-    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1578589461957">
-      <screen x="0" y="23" width="1680" height="941" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1579330700051">
+      <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1578242110785" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1579330700051" />
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1578589461957" />
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
-    <state x="505" y="228" width="670" height="676" key="search.everywhere.popup" timestamp="1578506809945">
-      <screen x="0" y="23" width="1680" height="941" />
+    <state width="1638" height="310" key="GridCell.Tab.1.bottom" timestamp="1579329589325">
+      <screen x="0" y="23" width="1680" height="939" />
     </state>
+    <state width="1638" height="310" key="GridCell.Tab.1.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579329589325" />
+    <state width="1638" height="310" key="GridCell.Tab.1.center" timestamp="1579329589324">
+      <screen x="0" y="23" width="1680" height="939" />
+    </state>
+    <state width="1638" height="310" key="GridCell.Tab.1.center/0.23.1680.939@0.23.1680.939" timestamp="1579329589324" />
+    <state width="1638" height="310" key="GridCell.Tab.1.left" timestamp="1579329589324">
+      <screen x="0" y="23" width="1680" height="939" />
+    </state>
+    <state width="1638" height="310" key="GridCell.Tab.1.left/0.23.1680.939@0.23.1680.939" timestamp="1579329589324" />
+    <state width="1638" height="310" key="GridCell.Tab.1.right" timestamp="1579329589325">
+      <screen x="0" y="23" width="1680" height="939" />
+    </state>
+    <state width="1638" height="310" key="GridCell.Tab.1.right/0.23.1680.939@0.23.1680.939" timestamp="1579329589325" />
+    <state x="623" y="279" key="chooseDestDirectoryDialog" timestamp="1579328236511">
+      <screen x="0" y="23" width="1680" height="939" />
+    </state>
+    <state x="623" y="279" key="chooseDestDirectoryDialog/0.23.1680.939@0.23.1680.939" timestamp="1579328236511" />
+    <state x="505" y="228" width="670" height="675" key="search.everywhere.popup" timestamp="1579328094994">
+      <screen x="0" y="23" width="1680" height="939" />
+    </state>
+    <state x="505" y="228" width="670" height="675" key="search.everywhere.popup/0.23.1680.939@0.23.1680.939" timestamp="1579328094994" />
     <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.941@0.23.1680.941" timestamp="1578506809945" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/linkedList/easy/RemoveDuplicateFromLinkedList.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/linkedList/easy/RemoveDuplicateFromLinkedList.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
