@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f2c2be91-380e-413f-b4b0-b5b5c4c975f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/LinkedListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/LinkedListUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +35,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/problems" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.RemoveDuplicateFromLinkedListTest">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.array.medium.ContainerWithMostWater" />
-      <module name="dataStructureAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.array.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PairwiseSwapTest">
     <configuration name="ContainerWithMostWaterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
@@ -58,6 +46,51 @@
       </extension>
       <option name="PACKAGE_NAME" value="problems.array.medium" />
       <option name="MAIN_CLASS_NAME" value="problems.array.medium.ContainerWithMostWaterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMiddleInLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructureAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.linkedList.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.linkedList.easy" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.FindMiddleInLLTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertInSortedLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructureAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.linkedList.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.linkedList.easy" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.InsertInSortedLLTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PairwiseSwapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructureAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.linkedList.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.linkedList.easy" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.PairwiseSwapTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,43 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatingAndMissingNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructureAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.array.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="problems.array.medium" />
-      <option name="MAIN_CLASS_NAME" value="problems.array.medium.RepeatingAndMissingNumberTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubarrayWithGivenSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructureAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.array.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="problems.array.medium" />
-      <option name="MAIN_CLASS_NAME" value="problems.array.medium.SubarrayWithGivenSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PairwiseSwapTest" />
+        <item itemvalue="JUnit.FindMiddleInLLTest" />
+        <item itemvalue="JUnit.InsertInSortedLLTest" />
         <item itemvalue="JUnit.RemoveDuplicateFromLinkedListTest" />
         <item itemvalue="JUnit.ContainerWithMostWaterTest" />
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="JUnit.RepeatingAndMissingNumberTest" />
-        <item itemvalue="JUnit.SubarrayWithGivenSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,28 +166,28 @@
     <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1680.939@0.23.1680.939" timestamp="1579329704496" />
     <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1680.941@0.23.1680.941" timestamp="1578504177828" />
     <state x="653" y="205" key="#com.intellij.ide.util.MemberChooser/0.23.1680.944@0.23.1680.944" timestamp="1578470728374" />
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1579330700052">
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1579365952925">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579330700052" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579365952925" />
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1578589461958" />
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1578510917208" />
-    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1579330700051">
+    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1579365952924">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1579330700051" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1579365952924" />
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1578589461957" />
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
-    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1579330700050">
+    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1579365952924">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1579330700050" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1579365952924" />
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1578589461956" />
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1578510917206" />
-    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1579330700051">
+    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1579365952925">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1579330700051" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1579365952925" />
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1578589461957" />
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
     <state width="1638" height="310" key="GridCell.Tab.1.bottom" timestamp="1579329589325">
@@ -207,10 +210,10 @@
       <screen x="0" y="23" width="1680" height="939" />
     </state>
     <state x="623" y="279" key="chooseDestDirectoryDialog/0.23.1680.939@0.23.1680.939" timestamp="1579328236511" />
-    <state x="505" y="228" width="670" height="675" key="search.everywhere.popup" timestamp="1579328094994">
+    <state x="505" y="228" width="670" height="675" key="search.everywhere.popup" timestamp="1579348817764">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state x="505" y="228" width="670" height="675" key="search.everywhere.popup/0.23.1680.939@0.23.1680.939" timestamp="1579328094994" />
+    <state x="505" y="228" width="670" height="675" key="search.everywhere.popup/0.23.1680.939@0.23.1680.939" timestamp="1579348817764" />
     <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.941@0.23.1680.941" timestamp="1578506809945" />
   </component>
   <component name="XDebuggerManager">

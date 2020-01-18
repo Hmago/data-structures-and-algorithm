@@ -52,4 +52,13 @@ public class LinkedListUtils {
 
         return true;
     }
+
+    /*
+     * Swap data of two LinkedListNodes
+     */
+    public static <T> void swap(SinglyLinkedList<T> list1, SinglyLinkedList<T> list2) {
+        T temp = list1.data;
+        list1.data = list2.data;
+        list2.data = temp;
+    }
 }
