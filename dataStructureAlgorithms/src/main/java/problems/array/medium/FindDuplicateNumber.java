@@ -13,12 +13,12 @@ import java.util.Arrays;
  */
 public class FindDuplicateNumber {
 
-    public int find(int arr[]) {
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[Math.abs(arr[i])] >= 0) {
-                arr[Math.abs(arr[i])] = -arr[Math.abs(arr[i])];
+    public int find(int nums[]) {
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[Math.abs(nums[i])] >= 0) {
+                nums[Math.abs(nums[i])] = -nums[Math.abs(nums[i])];
             } else {
-                return Math.abs(arr[i]);
+                return Math.abs(nums[i]);
             }
         }
 

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2c2be91-380e-413f-b4b0-b5b5c4c975f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataStructureAlgorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/data-structure-algorithms.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/problems/array/medium/RearrangePositiveNegativeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/problems/array/medium/RearrangePositiveNegativeNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/data-structure-algorithms.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/array/medium/FindDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/array/medium/FindDuplicateNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/problems/array/medium/FindDuplicateNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/problems/array/medium/FindDuplicateNumber.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +35,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.FindDuplicateNumberTest">
-    <configuration name="BestTimeToBuySellStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ContainerWithMostWaterTest">
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.array.medium.ContainerWithMostWater" />
+      <module name="dataStructureAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.array.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerWithMostWaterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -49,7 +58,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="problems.array.medium" />
-      <option name="MAIN_CLASS_NAME" value="problems.array.medium.BestTimeToBuySellStockTest" />
+      <option name="MAIN_CLASS_NAME" value="problems.array.medium.ContainerWithMostWaterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,10 +79,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepeatingAndMissingNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructureAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.array.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.array.medium" />
+      <option name="MAIN_CLASS_NAME" value="problems.array.medium.RepeatingAndMissingNumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubarrayWithGivenSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructureAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.array.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.array.medium" />
+      <option name="MAIN_CLASS_NAME" value="problems.array.medium.SubarrayWithGivenSumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContainerWithMostWaterTest" />
+        <item itemvalue="Application.ContainerWithMostWater" />
+        <item itemvalue="JUnit.RepeatingAndMissingNumberTest" />
+        <item itemvalue="JUnit.SubarrayWithGivenSumTest" />
         <item itemvalue="JUnit.FindDuplicateNumberTest" />
-        <item itemvalue="JUnit.BestTimeToBuySellStockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -116,21 +158,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1578241724341">
-      <screen x="0" y="23" width="1680" height="939" />
+    <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1578504177828">
+      <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1578241724341" />
-    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1578241724340">
-      <screen x="0" y="23" width="1680" height="939" />
+    <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1680.941@0.23.1680.941" timestamp="1578504177828" />
+    <state x="653" y="205" key="#com.intellij.ide.util.MemberChooser/0.23.1680.944@0.23.1680.944" timestamp="1578470728374" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1578589461958">
+      <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1578241724340" />
-    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1578241724340">
-      <screen x="0" y="23" width="1680" height="939" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1578242110786" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1578589461958" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1578510917208" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1578589461957">
+      <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1578241724340" />
-    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1578241724341">
-      <screen x="0" y="23" width="1680" height="939" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1578242110785" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1578589461957" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1578589461956">
+      <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1578241724341" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1578242110785" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1578589461956" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1578510917206" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1578589461957">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1578242110785" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1578589461957" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
+    <state x="505" y="228" width="670" height="676" key="search.everywhere.popup" timestamp="1578506809945">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.941@0.23.1680.941" timestamp="1578506809945" />
   </component>
 </project>
