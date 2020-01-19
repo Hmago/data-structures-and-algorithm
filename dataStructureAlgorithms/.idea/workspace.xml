@@ -4,6 +4,7 @@
     <list default="true" id="f2c2be91-380e-413f-b4b0-b5b5c4c975f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/LinkedListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/LinkedListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/LinkedListUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/LinkedListUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,26 +33,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/problems" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/problems/linkedList" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.PairwiseSwapTest">
-    <configuration name="ContainerWithMostWaterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dataStructureAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.array.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="problems.array.medium" />
-      <option name="MAIN_CLASS_NAME" value="problems.array.medium.ContainerWithMostWaterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMiddleInLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InsertInSortedCircularLLTest">
+    <configuration name="DeleteNnodesAfterMnodesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -60,13 +46,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="problems.linkedList.easy" />
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.FindMiddleInLLTest" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.DeleteNnodesAfterMnodesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertInSortedLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertInSortedCircularLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -75,13 +61,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="problems.linkedList.easy" />
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.InsertInSortedLLTest" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.InsertInSortedCircularLLTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairwiseSwapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeTwoLLAlternateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -90,22 +76,37 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="problems.linkedList.easy" />
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.PairwiseSwapTest" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.MergeTwoLLAlternateTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateFromLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.linkedList.easy.*" />
+          <option name="PATTERN" value="problems.linkedList.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problems.linkedList.easy" />
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.RemoveDuplicateFromLinkedListTest" />
+      <option name="PACKAGE_NAME" value="problems.linkedList.medium" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.ReverseLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataStructureAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.linkedList.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.linkedList.medium" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.RotateListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PairwiseSwapTest" />
-        <item itemvalue="JUnit.FindMiddleInLLTest" />
-        <item itemvalue="JUnit.InsertInSortedLLTest" />
-        <item itemvalue="JUnit.RemoveDuplicateFromLinkedListTest" />
-        <item itemvalue="JUnit.ContainerWithMostWaterTest" />
+        <item itemvalue="JUnit.InsertInSortedCircularLLTest" />
+        <item itemvalue="JUnit.RotateListTest" />
+        <item itemvalue="JUnit.ReverseLinkedListTest" />
+        <item itemvalue="JUnit.DeleteNnodesAfterMnodesTest" />
+        <item itemvalue="JUnit.MergeTwoLLAlternateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,50 +167,50 @@
     <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1680.939@0.23.1680.939" timestamp="1579329704496" />
     <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1680.941@0.23.1680.941" timestamp="1578504177828" />
     <state x="653" y="205" key="#com.intellij.ide.util.MemberChooser/0.23.1680.944@0.23.1680.944" timestamp="1578470728374" />
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1579365952925">
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1579425997160">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579365952925" />
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579425997160" />
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1578589461958" />
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1578510917208" />
-    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1579365952924">
+    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1579425997159">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1579365952924" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1579425997159" />
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1578589461957" />
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
-    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1579365952924">
+    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1579425997159">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1579365952924" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1579425997159" />
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1578589461956" />
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1578510917206" />
-    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1579365952925">
+    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1579425997160">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1579365952925" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1579425997160" />
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1578589461957" />
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
-    <state width="1638" height="310" key="GridCell.Tab.1.bottom" timestamp="1579329589325">
+    <state width="1638" height="310" key="GridCell.Tab.1.bottom" timestamp="1579371927727">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="310" key="GridCell.Tab.1.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579329589325" />
-    <state width="1638" height="310" key="GridCell.Tab.1.center" timestamp="1579329589324">
+    <state width="1638" height="310" key="GridCell.Tab.1.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579371927727" />
+    <state width="1638" height="310" key="GridCell.Tab.1.center" timestamp="1579371927726">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="310" key="GridCell.Tab.1.center/0.23.1680.939@0.23.1680.939" timestamp="1579329589324" />
-    <state width="1638" height="310" key="GridCell.Tab.1.left" timestamp="1579329589324">
+    <state width="1638" height="310" key="GridCell.Tab.1.center/0.23.1680.939@0.23.1680.939" timestamp="1579371927726" />
+    <state width="1638" height="310" key="GridCell.Tab.1.left" timestamp="1579371927726">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="310" key="GridCell.Tab.1.left/0.23.1680.939@0.23.1680.939" timestamp="1579329589324" />
-    <state width="1638" height="310" key="GridCell.Tab.1.right" timestamp="1579329589325">
+    <state width="1638" height="310" key="GridCell.Tab.1.left/0.23.1680.939@0.23.1680.939" timestamp="1579371927726" />
+    <state width="1638" height="310" key="GridCell.Tab.1.right" timestamp="1579371927727">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state width="1638" height="310" key="GridCell.Tab.1.right/0.23.1680.939@0.23.1680.939" timestamp="1579329589325" />
-    <state x="623" y="279" key="chooseDestDirectoryDialog" timestamp="1579328236511">
+    <state width="1638" height="310" key="GridCell.Tab.1.right/0.23.1680.939@0.23.1680.939" timestamp="1579371927727" />
+    <state x="623" y="279" key="chooseDestDirectoryDialog" timestamp="1579373094122">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state x="623" y="279" key="chooseDestDirectoryDialog/0.23.1680.939@0.23.1680.939" timestamp="1579328236511" />
+    <state x="623" y="279" key="chooseDestDirectoryDialog/0.23.1680.939@0.23.1680.939" timestamp="1579373094122" />
     <state x="505" y="228" width="670" height="675" key="search.everywhere.popup" timestamp="1579348817764">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
@@ -228,6 +229,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/problems/linkedList/easy/RemoveDuplicateFromLinkedList.java</url>
           <line>25</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/linkedList/easy/DeleteNnodesAfterMnodes.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/linkedList/easy/DeleteNnodesAfterMnodes.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
