@@ -17,4 +17,11 @@ public class DoublyLinkedList<T> {
     public static <T> DoublyLinkedList<T> createNode(T data) {
         return new DoublyLinkedList<>(data);
     }
+
+    @Override
+    public String toString() {
+        return "DoublyLinkedList{" +
+                "data=" + data +
+                '}';
+    }
 }

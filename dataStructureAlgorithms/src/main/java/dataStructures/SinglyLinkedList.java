@@ -31,4 +31,11 @@ public class SinglyLinkedList<T> {
 
         return this.data.equals(((SinglyLinkedList) obj).data);
     }
+
+    @Override
+    public String toString() {
+        return "SinglyLinkedList{" +
+                "data=" + data +
+                '}';
+    }
 }
