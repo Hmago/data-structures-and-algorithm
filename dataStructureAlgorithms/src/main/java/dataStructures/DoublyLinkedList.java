@@ -3,7 +3,7 @@ package dataStructures;
 /*
  * Doubly Linked List Node
  */
-public class DoublyLinkedList<T> {
+public class DoublyLinkedList<T>{
     public T data;
     public DoublyLinkedList<T> next;
     public DoublyLinkedList<T> prev;

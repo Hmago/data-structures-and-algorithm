@@ -139,4 +139,39 @@ public class LinkedListUtils {
 
         return true;
     }
+
+    public static <T> int size(SinglyLinkedList<T> head) {
+        int size = 0;
+        SinglyLinkedList<T> temp = head;
+        while (temp != null) {
+            size++;
+
+            temp = temp.next;
+        }
+
+        return size;
+    }
+
+    public static <T> SinglyLinkedList<T> middle(SinglyLinkedList<T> head) {
+        SinglyLinkedList<T> slow = head, fast = head;
+
+        while (slow != null && fast!=null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+
+    public static <T> int middleCount(SinglyLinkedList<T> head) {
+        SinglyLinkedList<T> slow = head, fast = head;
+
+        int count = 0;
+        while (slow != null && fast!=null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            count++;
+        }
+        return count;
+    }
 }
