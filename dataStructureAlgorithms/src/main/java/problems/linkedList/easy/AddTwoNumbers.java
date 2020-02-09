@@ -18,7 +18,7 @@ public class AddTwoNumbers {
             head2 = head2.next;
             p1 = p1 * 10;
         }
-        
+
         return (num1 + num2);
     }
 }
