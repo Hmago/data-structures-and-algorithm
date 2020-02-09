@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f2c2be91-380e-413f-b4b0-b5b5c4c975f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructures/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/linkedList/medium/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/linkedList/medium/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/LinkedListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/LinkedListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/linkedList/medium/ReverseLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/linkedList/medium/ReverseLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +40,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="problems.linkedList.easy" />
       <recent name="problems.linkedList.medium" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeTest">
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.Palindrome" />
+  <component name="RunManager" selected="JUnit.AddTwoNumbersTest">
+    <configuration name="FirstLastArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.FirstLastArrangement" />
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -59,22 +61,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructBinaryTreeFromLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddTwoNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.linkedList.medium.*" />
+          <option name="PATTERN" value="problems.linkedList.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problems.linkedList.medium" />
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.ConstructBinaryTreeFromLinkedListTest" />
+      <option name="PACKAGE_NAME" value="problems.linkedList.easy" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.easy.AddTwoNumbersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSumInThreeSortedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLastArrangementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -83,28 +85,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="problems.linkedList.medium" />
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.FindSumInThreeSortedListTest" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.FirstLastArrangementTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListWithMiddleElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.linkedList.medium.*" />
+          <option name="PATTERN" value="algorithms.basic.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problems.linkedList.medium" />
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.LinkedListWithMiddleElementTest" />
+      <option name="PACKAGE_NAME" value="algorithms.basic.sort" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.basic.sort.MergeSortLLTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseAlternateKNodesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +115,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="problems.linkedList.medium" />
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.PalindromeTest" />
+      <option name="MAIN_CLASS_NAME" value="problems.linkedList.medium.ReverseAlternateKNodesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PalindromeTest" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="JUnit.FindSumInThreeSortedListTest" />
-        <item itemvalue="JUnit.LinkedListWithMiddleElementTest" />
-        <item itemvalue="JUnit.ConstructBinaryTreeFromLinkedListTest" />
+        <item itemvalue="JUnit.AddTwoNumbersTest" />
+        <item itemvalue="JUnit.MergeSortLLTest" />
+        <item itemvalue="JUnit.ReverseAlternateKNodesTest" />
+        <item itemvalue="JUnit.FirstLastArrangementTest" />
+        <item itemvalue="Application.FirstLastArrangement" />
       </list>
     </recent_temporary>
   </component>
@@ -168,17 +170,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1581139997740">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state x="653" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1581229069360">
+      <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state x="653" y="203" key="#com.intellij.ide.util.MemberChooser/0.23.1680.938@0.23.1680.938" timestamp="1580924077483" />
+    <state x="653" y="203" key="#com.intellij.ide.util.MemberChooser/0.23.1680.938@0.23.1680.938" timestamp="1581229069360" />
     <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1680.939@0.23.1680.939" timestamp="1579329704496" />
     <state x="653" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1680.941@0.23.1680.941" timestamp="1580835934168" />
     <state x="653" y="205" key="#com.intellij.ide.util.MemberChooser/0.23.1680.944@0.23.1680.944" timestamp="1578470728374" />
     <state x="653" y="205" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1581139997740" />
-    <state x="556" y="358" width="567" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579446159223">
-      <screen x="0" y="23" width="1680" height="939" />
+    <state x="556" y="358" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581232897899">
+      <screen x="0" y="23" width="1680" height="938" />
     </state>
+    <state x="556" y="358" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.938@0.23.1680.938" timestamp="1581232897899" />
     <state x="556" y="358" width="567" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.939@0.23.1680.939" timestamp="1579446159223" />
     <state x="578" y="247" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581140054920">
       <screen x="0" y="23" width="1680" height="947" />
@@ -188,57 +191,57 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="578" y="247" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1680.947@0.23.1680.947" timestamp="1581139887723" />
-    <state width="1638" height="250" key="GridCell.Tab.0.bottom" timestamp="1581142650361">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="1638" height="250" key="GridCell.Tab.0.bottom" timestamp="1581233168875">
+      <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1638" height="309" key="GridCell.Tab.0.bottom/0.23.1680.938@0.23.1680.938" timestamp="1580967963375" />
+    <state width="1638" height="250" key="GridCell.Tab.0.bottom/0.23.1680.938@0.23.1680.938" timestamp="1581233168875" />
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579585349124" />
     <state width="1638" height="250" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1581054989576" />
     <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1578510917208" />
     <state width="1638" height="250" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1581142650361" />
-    <state width="1638" height="250" key="GridCell.Tab.0.center" timestamp="1581142650360">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="1638" height="250" key="GridCell.Tab.0.center" timestamp="1581233168875">
+      <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1638" height="309" key="GridCell.Tab.0.center/0.23.1680.938@0.23.1680.938" timestamp="1580967963374" />
+    <state width="1638" height="250" key="GridCell.Tab.0.center/0.23.1680.938@0.23.1680.938" timestamp="1581233168875" />
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1579585349123" />
     <state width="1638" height="250" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1581054989576" />
     <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
     <state width="1638" height="250" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1581142650360" />
-    <state width="1638" height="250" key="GridCell.Tab.0.left" timestamp="1581142650360">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="1638" height="250" key="GridCell.Tab.0.left" timestamp="1581233168874">
+      <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1638" height="309" key="GridCell.Tab.0.left/0.23.1680.938@0.23.1680.938" timestamp="1580967963374" />
+    <state width="1638" height="250" key="GridCell.Tab.0.left/0.23.1680.938@0.23.1680.938" timestamp="1581233168874" />
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1579585349123" />
     <state width="1638" height="250" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1581054989575" />
     <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1578510917206" />
     <state width="1638" height="250" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1581142650360" />
-    <state width="1638" height="250" key="GridCell.Tab.0.right" timestamp="1581142650361">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="1638" height="250" key="GridCell.Tab.0.right" timestamp="1581233168875">
+      <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1638" height="309" key="GridCell.Tab.0.right/0.23.1680.938@0.23.1680.938" timestamp="1580967963374" />
+    <state width="1638" height="250" key="GridCell.Tab.0.right/0.23.1680.938@0.23.1680.938" timestamp="1581233168875" />
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1579585349124" />
     <state width="1638" height="250" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1581054989576" />
     <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1578510917207" />
     <state width="1638" height="250" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1581142650361" />
-    <state width="1638" height="309" key="GridCell.Tab.1.bottom" timestamp="1580967963375">
+    <state width="1638" height="309" key="GridCell.Tab.1.bottom" timestamp="1581189172821">
       <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1638" height="309" key="GridCell.Tab.1.bottom/0.23.1680.938@0.23.1680.938" timestamp="1580967963375" />
+    <state width="1638" height="309" key="GridCell.Tab.1.bottom/0.23.1680.938@0.23.1680.938" timestamp="1581189172821" />
     <state width="1638" height="310" key="GridCell.Tab.1.bottom/0.23.1680.939@0.23.1680.939" timestamp="1579426422849" />
-    <state width="1638" height="309" key="GridCell.Tab.1.center" timestamp="1580967963375">
+    <state width="1638" height="309" key="GridCell.Tab.1.center" timestamp="1581189172820">
       <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1638" height="309" key="GridCell.Tab.1.center/0.23.1680.938@0.23.1680.938" timestamp="1580967963375" />
+    <state width="1638" height="309" key="GridCell.Tab.1.center/0.23.1680.938@0.23.1680.938" timestamp="1581189172820" />
     <state width="1638" height="310" key="GridCell.Tab.1.center/0.23.1680.939@0.23.1680.939" timestamp="1579426422848" />
-    <state width="1638" height="309" key="GridCell.Tab.1.left" timestamp="1580967963375">
+    <state width="1638" height="309" key="GridCell.Tab.1.left" timestamp="1581189172820">
       <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1638" height="309" key="GridCell.Tab.1.left/0.23.1680.938@0.23.1680.938" timestamp="1580967963375" />
+    <state width="1638" height="309" key="GridCell.Tab.1.left/0.23.1680.938@0.23.1680.938" timestamp="1581189172820" />
     <state width="1638" height="310" key="GridCell.Tab.1.left/0.23.1680.939@0.23.1680.939" timestamp="1579426422848" />
-    <state width="1638" height="309" key="GridCell.Tab.1.right" timestamp="1580967963375">
+    <state width="1638" height="309" key="GridCell.Tab.1.right" timestamp="1581189172821">
       <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1638" height="309" key="GridCell.Tab.1.right/0.23.1680.938@0.23.1680.938" timestamp="1580967963375" />
+    <state width="1638" height="309" key="GridCell.Tab.1.right/0.23.1680.938@0.23.1680.938" timestamp="1581189172821" />
     <state width="1638" height="310" key="GridCell.Tab.1.right/0.23.1680.939@0.23.1680.939" timestamp="1579426422849" />
     <state x="623" y="279" key="chooseDestDirectoryDialog" timestamp="1579373094122">
       <screen x="0" y="23" width="1680" height="939" />
@@ -248,10 +251,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="546" y="107" key="refactoring.ChangeSignatureDialog/0.23.1680.947@0.23.1680.947" timestamp="1581140091511" />
-    <state x="505" y="229" width="670" height="681" key="search.everywhere.popup" timestamp="1581142211532">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state x="505" y="227" width="670" height="674" key="search.everywhere.popup" timestamp="1581232208200">
+      <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state x="505" y="227" width="670" height="674" key="search.everywhere.popup/0.23.1680.938@0.23.1680.938" timestamp="1580924065401" />
+    <state x="505" y="227" width="670" height="674" key="search.everywhere.popup/0.23.1680.938@0.23.1680.938" timestamp="1581232208200" />
     <state x="505" y="228" width="670" height="675" key="search.everywhere.popup/0.23.1680.939@0.23.1680.939" timestamp="1579348817764" />
     <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.941@0.23.1680.941" timestamp="1581004317185" />
     <state x="505" y="229" width="670" height="681" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1581142211532" />

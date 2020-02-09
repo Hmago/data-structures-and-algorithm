@@ -155,7 +155,7 @@ public class LinkedListUtils {
     public static <T> SinglyLinkedList<T> middle(SinglyLinkedList<T> head) {
         SinglyLinkedList<T> slow = head, fast = head;
 
-        while (slow != null && fast!=null && fast.next != null) {
+        while (fast != null && fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
@@ -166,7 +166,7 @@ public class LinkedListUtils {
         SinglyLinkedList<T> slow = head, fast = head;
 
         int count = 0;
-        while (slow != null && fast!=null && fast.next != null) {
+        while (slow != null && fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 

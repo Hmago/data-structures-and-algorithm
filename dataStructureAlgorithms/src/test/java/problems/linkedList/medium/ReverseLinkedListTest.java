@@ -47,4 +47,18 @@ public class ReverseLinkedListTest {
 
         Assert.assertTrue(LinkedListUtils.isEqual(head1, head2));
     }
+
+    @Test
+    public void test4() {
+        Integer inputData[] = {1, 2, 3, 4, 5, 6, 7};
+        SinglyLinkedList<Integer> head1 = LinkedListUtils.createSinglyFromArray(inputData);
+        head1 = obj.reverse(head1, 1, 6);
+        LinkedListUtils.printSingly(head1);
+
+        Integer expectedData[] = {1, 7, 6, 5, 4, 3, 2};
+        SinglyLinkedList<Integer> head2 = LinkedListUtils.createSinglyFromArray(expectedData);
+
+        Assert.assertTrue(LinkedListUtils.isEqual(head1, head2));
+    }
+
 }
