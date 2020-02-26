@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2c2be91-380e-413f-b4b0-b5b5c4c975f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/linkedList/hard/MaximumSumListFromTwoSortedLinkedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/linkedList/hard/MaximumSumListFromTwoSortedLinkedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
       <recent name="dataStructures" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Rotate90Test">
+  <component name="RunManager" selected="JUnit.MaximumSumPathTest.test">
     <configuration name="MaximumSumListFromTwoSortedLinkedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.linkedList.hard.MaximumSumListFromTwoSortedLinkedTest" />
       <module name="dataStructureAlgorithms" />
@@ -60,17 +58,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSumListFromTwoSortedLinkedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumSumPathTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dataStructureAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problems.linkedList.hard.*" />
+          <option name="PATTERN" value="problems.maxtrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="problems.linkedList.hard" />
-      <option name="MAIN_CLASS_NAME" value="problems.linkedList.hard.MaximumSumListFromTwoSortedLinkedTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="problems.maxtrix" />
+      <option name="MAIN_CLASS_NAME" value="problems.maxtrix.MaximumSumPathTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaximumSumPathTest.test" />
         <item itemvalue="JUnit.Rotate90Test" />
         <item itemvalue="JUnit.SpiralPrintTest" />
         <item itemvalue="JUnit.StackWithGetMinTest.test1" />
         <item itemvalue="Application.MaximumSumListFromTwoSortedLinkedTest" />
-        <item itemvalue="JUnit.MaximumSumListFromTwoSortedLinkedTest" />
       </list>
     </recent_temporary>
   </component>
