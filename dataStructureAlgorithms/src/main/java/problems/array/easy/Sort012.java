@@ -40,7 +40,5 @@ public class Sort012 {
             arr[index++] = 2;
             two--;
         }
-
-
     }
 }
