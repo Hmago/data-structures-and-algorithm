@@ -5,7 +5,6 @@ public class ProductArrayPuzzle {
     public int[] evaluate(int nums[]) {
         int left[] = new int[nums.length];
         int right[] = new int[nums.length];
-        int output[] = new int[nums.length];
 
         if (nums.length < 2) {
             return nums;
@@ -22,9 +21,9 @@ public class ProductArrayPuzzle {
         }
 
         for (int i = 0; i < nums.length; i++) {
-            output[i] = left[i] * right[i];
+            nums[i] = left[i] * right[i];
         }
 
-        return output;
+        return nums;
     }
 }
