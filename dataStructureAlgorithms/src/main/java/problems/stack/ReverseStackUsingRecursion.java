@@ -2,6 +2,8 @@ package problems.stack;
 
 import dataStructures.SinglyStack;
 
+import java.util.Stack;
+
 /*
  * Reverse a stack using recursion
  * Link: https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/
@@ -10,13 +12,24 @@ import dataStructures.SinglyStack;
  */
 public class ReverseStackUsingRecursion {
 
-//    public <T> void reverse(SinglyStack<T> stack) {
-//        if (stack.isEmpty()) {
-//            return;
-//        }
-//
-//        T data = stack.pop();
-//        reverse(stack);
-//        stack.push(data);
-//    }
+    private void insertAtBottom(Stack<Integer> data, Integer element) {
+        if (data.empty()) {
+            data.push(element);
+            return;
+        }
+
+        Integer temp = data.pop();
+        insertAtBottom(data, element);
+        data.push(temp);
+    }
+
+    public void reverse(Stack<Integer> data) {
+        if (data.empty()) {
+            return;
+        }
+
+        Integer element = data.pop();
+        reverse(data);
+        insertAtBottom(data, element);
+    }
 }
