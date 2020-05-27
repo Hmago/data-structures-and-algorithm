@@ -18,7 +18,6 @@ public class MergeSortLL {
         SinglyLinkedList<T> right = sort(nextToMiddle);
 
         return merge(left, right);
-
     }
 
     private <T extends Comparable> SinglyLinkedList<T> merge(SinglyLinkedList<T> left, SinglyLinkedList<T> right) {
