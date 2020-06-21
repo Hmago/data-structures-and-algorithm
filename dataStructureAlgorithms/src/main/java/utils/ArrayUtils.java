@@ -27,4 +27,13 @@ public class ArrayUtils {
         return sum;
     }
 
+    public static int[] reverse(int arr[], int start, int end) {
+        while (start < end) {
+            swap(arr, start, end);
+            start++;
+            end--;
+        }
+
+        return arr;
+    }
 }
