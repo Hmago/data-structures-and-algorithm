@@ -1,5 +1,8 @@
 package problems.dp;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 /**
  * @author harshit.mago
  */
@@ -25,11 +28,38 @@ public class SubsetSumProblem {
         return mem[n][sum];
     }
 
+    public static boolean topDownApproach(int arr[], int sum) {
+        if (sum == 0) {
+            return true;
+        }
+
+        int n = arr.length;
+        boolean holder[][] = new boolean[n + 1][sum + 1];
+        holder[0][0] = true;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j <= sum; j++) {
+                if (j == 0) {
+                    holder[i][j] = true;
+                } else if (arr[i - 1] > j) {
+                    holder[i][j] = (holder[i - 1][j]);
+                } else {
+                    holder[i][j] = (holder[i - 1][j]) || (holder[i-1][j - arr[i - 1]]);
+                }
+            }
+            System.out.printf("");
+        }
+
+        return holder[n][sum];
+    }
+
     public static void main(String[] args) {
         int arr[] = {3, 34, 4, 12, 5, 2};
-        int sum = 300;
+        int sum = 10;
 
-        boolean mem[][] = new boolean[ arr.length + 1][sum + 1];
-        System.out.println(find(arr, arr.length - 1, sum, mem));
+        boolean mem[][] = new boolean[arr.length + 1][sum + 1];
+        System.out.println("Bottom Up:"+find(arr, arr.length - 1, sum, mem));
+
+        Arrays.sort(arr);
+        System.out.println("Top Down:"+topDownApproach(arr, sum));
     }
 }
